@@ -1,0 +1,94 @@
+ /* * { 
+    outline: dotted red;
+    } */
+    
+    .all{
+        width: 900px;
+        margin: auto;
+    }
+
+    /*bar*/
+
+    .bar{
+        background-color: black;
+        color: white;
+        }
+
+        h1{
+            margin-left: 20px; 
+        }
+
+        h2{
+
+            text-align: center;
+        }
+        
+        /*main*/
+
+        .main{
+            display: flex;
+            justify-content: space-between;
+        width: 900px;
+        
+        }
+
+        .left{
+            display: block;
+            width: 20%;
+            
+        }
+
+        .right{
+        
+            width: 75%;
+        
+        }
+    
+        .user, .like {
+
+            border: 2px black solid ;
+        }
+
+        .user{
+
+            padding:5% 5%;
+            margin-right: 10%;
+        
+            height: 40%;
+            text-align: center;
+
+        }
+
+        a{
+            margin-bottom: 40px ;  
+        }
+
+        p{
+            margin-top: 40px ;
+        }
+
+
+        /* like */
+
+        .img{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .like{
+
+            margin-bottom: 20px;
+        }
+
+        button{
+            background-color: rgb(246, 200, 51);
+            width: 50px;
+            box-shadow: 3px 3px;
+        }
+
+        h5{
+            
+            margin-left: 20px;
+
+        }
